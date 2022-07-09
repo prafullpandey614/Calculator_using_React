@@ -14,7 +14,13 @@ export const Calculator = () => {
     }
     const calculateResult = () => {
         const inp = text.join("");
-        setResult(math.evaluate(inp));
+        try {
+            setResult(math.evaluate(inp));
+            
+        } catch (e) {
+            setResult("Invalid Input")
+        }
+        
     }
     const buttonColor = "#f2a33c";
     const [text, setText] = useState("");
