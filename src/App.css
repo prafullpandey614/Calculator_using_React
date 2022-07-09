@@ -8,12 +8,12 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  min-height: 90vh;
+  
 }
 
 .calc-wrapper {
   background-color: white;
-  width: 25vw;
+  width: 400px;
   border-radius: 16px;
   padding: 1rem;
 }
