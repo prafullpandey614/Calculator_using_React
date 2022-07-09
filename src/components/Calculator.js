@@ -10,7 +10,7 @@ export const Calculator = () => {
         setText("");
     }
     const addToText = (val) => {
-        setText((text)=>[...text,val+" "])
+        setText((text)=>[...text,val])
     }
     const calculateResult = () => {
         const inp = text.join("");
